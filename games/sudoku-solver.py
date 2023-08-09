@@ -1,4 +1,4 @@
-# Backtracking Algorithm for Sudoku
+# Backtracking algorithm for Sudoku
 
 def solve(board):
     empty_cells = []

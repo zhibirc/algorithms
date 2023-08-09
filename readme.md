@@ -9,8 +9,8 @@ The main focus was made on algorithms themselves, so you can find their implemen
 
 ## Content
 
-| Type         | Problem                                                                           | Link                                         |
-|--------------|-----------------------------------------------------------------------------------|----------------------------------------------|
-| Games        |                                                                                   |                                              |
-| Strings      |                                                                                   |                                              |
-| Lists/Arrays | Determine if given array has a pair of numbers whose sum is match the give target | [🔗](./lists/arrays/has-pair-sum-equal-n.js) |
+| Type         | Problem                                                                           | Link                                        |
+|--------------|-----------------------------------------------------------------------------------|---------------------------------------------|
+| Games        |                                                                                   | [🔗](./games/sudoku-solver.py)              |
+| Strings      |                                                                                   | [🔗]                                        |
+| Lists/Arrays | Determine if given array has a pair of numbers whose sum is match the give target | [🔗](./lists/arrays/has-pair-sum-equal-n.js)|
