@@ -16,3 +16,4 @@ The main focus was made on algorithms themselves, so you can find their implemen
 | Games        | Sudoku solver (backtracking)                                                      | [🔗](./games/sudoku-solver.py)              |
 | Strings      |                                                                                   | [🔗]()                                      |
 | Lists/Arrays | Determine if given array has a pair of numbers whose sum is match the give target | [🔗](./lists/arrays/has-pair-sum-equal-n.js)|
+| Conversions  | Convert an integer to a roman numeral                                             | [🔗](./conversions/integer-to-roman.ts)     |
