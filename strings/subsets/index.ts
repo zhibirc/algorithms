@@ -1,5 +1,5 @@
 /**
- * 2^N
+ * 2^N (since each element could be absent or present)
  * @param {*} result 
  * @param {*} rest 
  */
