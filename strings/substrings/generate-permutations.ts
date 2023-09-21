@@ -12,4 +12,3 @@ function formSubsets(current: string, rest: string): void {
 		formSubsets(current, rest.slice(1));
     }
 }
-
