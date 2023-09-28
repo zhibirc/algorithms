@@ -1,5 +1,7 @@
 /**
- * N!
+ * General recursive approach for generating all permutations of string letters.
+ * Duplicates-agnostic, i.e. there are no mechanism for filtering of character duplicates.
+ * Complexity: O(N!)
  */
 
 function makePermutation (current: string, rest: string): void {
@@ -15,4 +17,5 @@ function makePermutation (current: string, rest: string): void {
     }
 }
 
+// invocation example
 makePermutation('', 'abcd');
