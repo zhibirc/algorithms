@@ -18,11 +18,11 @@ You and/or your company could use it as a source for coding skills assessment du
 |----------------|-----------------------------------------------------------------------------------|-----------------------------------------------------------|
 | **Games**      | Sudoku solver (backtracking)                                                      | [🔗](./games/sudoku-solver.py)                            |
 | **Strings**    |                                                                                   | [🔗](./strings/)                                          |
-| > Palindromes  | Check if a given string is a palindrome                                           | [🔗](./strings/palindromes/is-palindrome.go)              |
-| > Palindromes  | Check if a given string is a potential palindrome                                 | [🔗](./strings/palindromes/is-potential-palindrome.py)    |
-| > Permutations | Generate all possible balanced bracket sequences of `N` pairs.                    | [🔗](./strings/permutations/balanced-bracket-sequences.py)|
+| Palindromes    | Check if a given string is a palindrome                                           | [🔗](./strings/palindromes/is-palindrome.go)              |
+| Palindromes    | Check if a given string is a potential palindrome                                 | [🔗](./strings/palindromes/is-potential-palindrome.py)    |
+| Permutations   | Generate all possible balanced bracket sequences of `N` pairs                     | [🔗](./strings/permutations/balanced-bracket-sequences.py)|
 | **Lists**      |                                                                                   | [🔗](./lists/)                                            |
-| > Arrays       | Check if a given array has a pair of numbers whose sum is match the give target   | [🔗](./lists/arrays/has-pair-sum-equal-n.js)              |
+| Arrays         | Check if a given array has a pair of numbers whose sum is match the given target  | [🔗](./lists/arrays/has-pair-sum-equal-n.js)              |
 | **Conversions**| Convert an integer to a roman numeral                                             | [🔗](./conversions/integer-to-roman.ts)                   |
 | **Trees**      |                                                                                   | [🔗](./trees/)                                            |
-| > Binary       | Check if there is a node in binary tree which satisfies to given predicate        | [🔗](./trees/binary/search.py)                            |
+| Binary         | Check if there is a node in binary tree which satisfies to given predicate        | [🔗](./trees/binary/search.py)                            |
