@@ -1,4 +1,4 @@
-# Check if given string is a potential palindrome.
+# Check if a given string is a potential palindrome.
 # "Potential" means that the given string could be a true palindrome after shuffling its characters.
 # Given string could be shuffled unlimited times.
 # For example:

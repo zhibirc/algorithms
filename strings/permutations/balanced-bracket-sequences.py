@@ -1,3 +1,5 @@
+# Generate all possible balanced bracket sequences of N pairs.
+
 from typing import List
 
 def get_possible_bracket_sequences(n: int) -> List[str]:

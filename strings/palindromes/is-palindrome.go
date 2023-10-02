@@ -1,5 +1,5 @@
 /*
-Check if the given string is a palindrome or not.
+Check if a given string is a palindrome.
 Return "true" if it's palindrome and "false" if it's not.
 
 The proposed algorithm uses two pointers approach for checking complementary characters for equality.
