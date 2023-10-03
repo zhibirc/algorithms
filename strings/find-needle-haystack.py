@@ -1,4 +1,4 @@
-# Naive approach to find substring pattern/template in given string (needle in haystack).
+# Naive/bruteforce approach to find substring pattern in a given string (needle in haystack).
 # Complexity: O(M * N) in worst case where M - length of the "needle" and N - length of the "haystack".
 
 def find_needle_haystack(needle: str, haystack: str) -> int:

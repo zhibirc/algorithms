@@ -21,6 +21,8 @@ You and/or your company could use it as a source for coding skills assessment du
 | Palindromes    | Check if a given string is a palindrome                                           | [🔗](./strings/palindromes/is-palindrome.go)              |
 | Palindromes    | Check if a given string is a potential palindrome                                 | [🔗](./strings/palindromes/is-potential-palindrome.py)    |
 | Permutations   | Generate all possible balanced bracket sequences of `N` pairs                     | [🔗](./strings/permutations/balanced-bracket-sequences.py)|
+| Permutations   | Generate all possible permutations of string letters (recursion)                  | [🔗](./strings/permutations/generate-all-recursive.ts)    |
+|                | Find substring pattern in a given string (needle in haystack)                     | [🔗](./strings/find-needle-haystack.py)                   |
 | **Lists**      |                                                                                   | [🔗](./lists/)                                            |
 | Arrays         | Check if a given array has a pair of numbers whose sum is match the given target  | [🔗](./lists/arrays/has-pair-sum-equal-n.js)              |
 | **Conversions**| Convert an integer to a roman numeral                                             | [🔗](./conversions/integer-to-roman.ts)                   |

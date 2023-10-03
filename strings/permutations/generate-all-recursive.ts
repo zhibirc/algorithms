@@ -1,5 +1,5 @@
 /**
- * General recursive approach for generating all permutations of string letters.
+ * Generate all possible permutations of string letters (recursion).
  * Duplicates-agnostic, i.e. there are no mechanism for filtering of character duplicates.
  * Complexity: O(N!)
  */
