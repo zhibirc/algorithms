@@ -1,7 +1,7 @@
 # Algorithms
 
 [![Maintenance](https://img.shields.io/maintenance/yes/2023.svg?style=flat)]()
-![GitHub repo size](https://img.shields.io/github/repo-size/zhibirc/algorithms)
+![GitHub repo size](https://img.shields.io/github/repo-size/zhibirc/algorithms?style=flat&color=teal)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg?style=flat)]()
 
 ---
@@ -26,9 +26,15 @@ You and/or your company could use it as a source for coding skills assessment du
 | Brackets     | Check correctness of a given bracket sequence (multiple bracket types)           | [🔗](./strings/brackets/is-correct-multitype-bracket-sequence.js)|
 | Brackets     | Generate all possible balanced bracket sequences of N pairs                      | [🔗](./strings/brackets/generate-bracket-sequences-recursion.py) |
 |              | Find substring pattern in a given string (needle in haystack)                    | [🔗](./strings/find-needle-haystack.py)                          |
+|              | Implementation of Knuth–Morris–Pratt algorithm (KMP)                             | [🔗](./strings/knuth-morris-pratt.py)                            |
 | **Lists**    |                                                                                  | [🔗](./lists/)                                                   |
 | Arrays       | Check if a given array has a pair of numbers whose sum is match the given target | [🔗](./lists/arrays/has-pair-sum-equal-n.js)                     |
 | **Parsers**  |                                                                                  | [🔗](./parsers/)                                                 |
 | Conversions  | Convert an integer to a roman numeral                                            | [🔗](./parsers/conversions/integer-to-roman.ts)                  |
 | **Trees**    |                                                                                  | [🔗](./trees/)                                                   |
 | Binary       | Check if there is a node in binary tree which satisfies to given predicate       | [🔗](./trees/binary/search.py)                                   |
+
+## Additional materials
+
+- [The Algorithms](https://the-algorithms.com)
+- [JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms)

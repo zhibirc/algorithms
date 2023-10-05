@@ -1,3 +1,5 @@
+# Implementation of Knuth–Morris–Pratt algorithm (KMP).
+#
 # Asymptotic complexity is linear in the worst case.
 
 from typing import List
