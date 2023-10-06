@@ -27,6 +27,8 @@ You and/or your company could use it as a source for coding skills assessment du
 | Brackets     | Generate all possible balanced bracket sequences of N pairs                      | [🔗](./strings/brackets/generate-bracket-sequences-recursion.py) |
 |              | Find substring pattern in a given string (needle in haystack)                    | [🔗](./strings/find-needle-haystack.py)                          |
 |              | Implementation of Knuth–Morris–Pratt algorithm (KMP)                             | [🔗](./strings/knuth-morris-pratt.py)                            |
+| **Sequences**|                                                                                  | [🔗](./sequences/)                                               |
+|              | Implementation of Boyer–Moore majority vote algorithm                            | [🔗](./sequences/boyer-moore-majority-vote.go)                   |
 | **Lists**    |                                                                                  | [🔗](./lists/)                                                   |
 | Arrays       | Check if a given array has a pair of numbers whose sum is match the given target | [🔗](./lists/arrays/has-pair-sum-equal-n.js)                     |
 | **Parsers**  |                                                                                  | [🔗](./parsers/)                                                 |
