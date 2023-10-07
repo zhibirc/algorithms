@@ -24,6 +24,7 @@ You and/or your company could use it as a source for coding skills assessment du
 | Permutations | Generate all possible permutations of string letters (recursion)                 | [🔗](./strings/permutations/generate-all-recursive.ts)           |
 | Brackets     | Check correctness of a given bracket sequence (one bracket type)                 | [🔗](./strings/brackets/is-correct-onetype-bracket-sequence.js)  |
 | Brackets     | Check correctness of a given bracket sequence (multiple bracket types)           | [🔗](./strings/brackets/is-correct-multitype-bracket-sequence.js)|
+| Brackets     | Determine the maximum depth of nesting brackets in a given sequence              | [🔗](./strings/brackets/nesting-brackets-depth.go)               |
 | Brackets     | Generate all possible balanced bracket sequences of N pairs                      | [🔗](./strings/brackets/generate-bracket-sequences-recursion.py) |
 |              | Find substring pattern in a given string (needle in haystack)                    | [🔗](./strings/find-needle-haystack.py)                          |
 |              | Implementation of Knuth–Morris–Pratt algorithm (KMP)                             | [🔗](./strings/knuth-morris-pratt.py)                            |
