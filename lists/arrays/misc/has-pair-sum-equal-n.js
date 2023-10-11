@@ -1,5 +1,5 @@
 /**
- * Solution on "Determine if given array has a pair of numbers whose sum is match the give target".
+ * Determine if given array has a pair of numbers whose sum is match the give target.
  *
  * There could be different variations of this problem: ordered and unordered lists,
  * find the actual pair instead of the fact itself, implement Binary Search additionally,
@@ -70,3 +70,11 @@ function hasPair (list, n) {
 
     return false;
 }
+
+// tests
+
+console.assert(hasPair([1, 2, 6, 7, 20, 45], 52));
+console.assert(hasPair([1], 5));
+console.assert(hasPair([1, 1, 1, 1, 1], 10));
+console.assert(hasPair([100, 200, 300, 400, 500], 10));
+console.assert(hasPair([], 0));
