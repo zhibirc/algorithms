@@ -32,6 +32,7 @@ You and/or your company could use it as a source for coding skills assessment du
 |                   |Implementation of Boyer–Moore majority vote algorithm                            |[🔗](./sequences/boyer-moore-majority-vote.go)                   |
 |**Lists**          |                                                                                 |[🔗](./lists/)                                                   |
 |Arrays             |Check if a given array has a pair of numbers whose sum is match the given target |[🔗](./lists/arrays/has-pair-sum-equal-n.js)                     |
+|Linked Lists       |Find a middle/median element                                                     |[🔗](./lists/linked-lists/find-median-element.js)                |
 |**Parsers**        |                                                                                 |[🔗](./parsers/)                                                 |
 |Conversions        |Convert an integer to a roman numeral                                            |[🔗](./parsers/conversions/integer-to-roman.ts)                  |
 |**Trees**          |                                                                                 |[🔗](./trees/)                                                   |
