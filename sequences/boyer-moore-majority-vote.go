@@ -6,7 +6,7 @@ See: https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm
 Complexity: O(N) time and O(1) space
 */
 
-package main
+package sequences
 
 func findMajority(items []int) any {
 	var count int = 0

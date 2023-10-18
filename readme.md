@@ -38,8 +38,9 @@ You and/or your company could use it as a source for coding skills assessment du
 |**Trees**              |                                                                            |[🔗](./trees/)                                                   |
 |Binary                 |Check if there is a node in binary tree which satisfies to given predicate  |[🔗](./trees/binary/search.py)                                   |
 |**Dynamic Programming**|                                                                            |[🔗](./dynamic-programming/)                                     |
-|                       |Coin Change (Change-making): find the least number of coins                 |[🔗](./dynamic-programming/least-coin-change.ts)                 |
-|                       |Coin Change (Change-making): find the total number of ways (order matters)  |[🔗](./dynamic-programming/all-coin-change.ts)                   |
+|                       |Coin Change (Change-making): find the least number of coins                 |[🔗](./dynamic-programming/coin-change-least-number.ts)          |
+|                       |Coin Change (Change-making): find the total number of ways (order matters)  |[🔗](./dynamic-programming/coin-change-total-number.ts)          |
+|                       |Coin Change (Change-making): get coins of the least number of coins         |[🔗](./dynamic-programming/coin-change-least-coins.ts)           |
 |**Data Structures**    |                                                                            |[🔗](./data-structures/)                                         |
 |                       | Circular Buffer (Ring Buffer)                                              |[🔗](./data-structures/circular-buffer.js)                       |
 

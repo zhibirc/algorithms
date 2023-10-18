@@ -1,5 +1,5 @@
 /**
- * Find the total number of ways to make a change of given amount of money.
+ * Get the total number of ways to make a change of given amount of money.
  *
  * Given an integer array of coins representing different types of denominations and an integer
  * denoted the amount of money, determine all possibilities of coins for change.
@@ -8,7 +8,7 @@
 
 /* ---------- Approach 1 ---------- */
 
-function f(n: number, coins: number[]): number {
+function getCoinChangeTotalNumber(n: number, coins: number[]): number {
     const dp = [1, ...Array(n).fill(0)];
 
     for (let i = 1; i <= n; i += 1) {
