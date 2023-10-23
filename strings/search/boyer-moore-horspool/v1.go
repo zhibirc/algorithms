@@ -1,7 +1,4 @@
-// Additional information:
-// Wikipedia: https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore%E2%80%93Horspool_algorithm
-
-package strings
+package boyermoorehorspool
 
 import "fmt"
 
@@ -22,11 +19,6 @@ func preprocess(pattern string) map[rune]int {
 	}
 
 	return res
-}
-
-// There is another variant of preprocessing where we construct the table for each character in presumable alphabet.
-func preprocess(pattern string) []int {
-	// implement for 256 ACSII characters table
 }
 
 func search(needle string, haystack string) int {
