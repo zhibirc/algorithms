@@ -41,12 +41,10 @@ func search(needle string, haystack string) int {
 						i += m - 1
 					}
 				} else {
-					if v, _ := d[rune(haystack[i+m-1])]; v < m {
-						i += v - 1
-					} else {
-						i += m - 1
-					}
+					i += d[rune(haystack[i+m-1])] - 1
 				}
+				// characters mismatched, so make a shift and break inner loop (stop traversing the pattern)
+				break
 			}
 		}
 	}
@@ -56,5 +54,5 @@ func search(needle string, haystack string) int {
 
 func main() {
 	// find at index 6
-	fmt.Printf("Index of \"bar\" in \"zoofoobarquux\": %d", search("bar", "zoofoobarquux"))
+	fmt.Printf("index of \"bar\" in \"zoofoobarquux\": %d", search("bar", "zoofoobarquux"))
 }

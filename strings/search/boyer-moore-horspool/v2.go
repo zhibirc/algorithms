@@ -21,7 +21,6 @@ func preprocess(pattern string) []int {
 	return res
 }
 
-// @todo: should be reworked using preprocess from V2 version (ASCII table)
 func search(needle string, haystack string) int {
 	m := len(needle)
 	n := len(haystack)
@@ -35,19 +34,9 @@ func search(needle string, haystack string) int {
 					return i
 				}
 			} else {
-				if j == m-1 {
-					if v, ok := d[rune(haystack[i+j])]; ok {
-						i += v - 1
-					} else {
-						i += m - 1
-					}
-				} else {
-					if v, _ := d[rune(haystack[i+m-1])]; v < m {
-						i += v - 1
-					} else {
-						i += m - 1
-					}
-				}
+				i += d[haystack[i+j]] - 1
+				// characters mismatched, so make a shift and break inner loop (stop traversing the pattern)
+				break
 			}
 		}
 	}
@@ -57,5 +46,5 @@ func search(needle string, haystack string) int {
 
 func main() {
 	// find at index 6
-	fmt.Printf("Index of \"bar\" in \"zoofoobarquux\": %d", search("bar", "zoofoobarquux"))
+	fmt.Printf("index of \"bar\" in \"zoofoobarquux\": %d", search("bar", "zoofoobarquux"))
 }
