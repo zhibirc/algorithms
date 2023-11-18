@@ -5,7 +5,7 @@ import "fmt"
 // Construct that is called "Bad Match Table" or "Shift Table".
 // Example: preprocess("abeccde") -> [<97 preceding ASCII characters>, 6, 5, 2, 1, 4, <other ASCII characters>]
 // Time complexity: O(M), i.e. linear, where M is pattern length.
-// Space complexity: O(M) in the worst case (when each symbol is unique).
+// Space complexity: O(1), i.e. constant, since we use fixed length array for shift values.
 func preprocess(pattern string) []int {
 	m := len(pattern)
 	res := make([]int, 256)

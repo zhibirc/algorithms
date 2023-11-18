@@ -49,3 +49,4 @@ You and/or your company could use it as a source for coding skills assessment du
 
 - [The Algorithms](https://the-algorithms.com)
 - [JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms)
+- [Time Complexity of various Python operations](https://wiki.python.org/moin/TimeComplexity)

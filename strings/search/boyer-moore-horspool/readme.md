@@ -7,7 +7,7 @@ __Boyer–Moore–Horspool__ algorithm or Horspool's algorithm is a simplificati
 
 __Time complexity__
 
-> $M$ is the length of the pattern and $N$ is the length of the search string.
+> $N$ is the length of the search string (haystack) and $M$ is the length of the pattern (needle).
 
 | Worst case | Average case | Best case     |
 |------------|--------------|---------------|
