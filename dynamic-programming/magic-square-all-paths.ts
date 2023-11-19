@@ -46,13 +46,13 @@ function getAllPathsVisualize (matrix: Array<Array<any>>): TResult {
     const filledMatrix = Array.from(matrix, row => [...row]);
     const matrixSize = matrix.length;
 
-    // if we are on the top-most row we have only one pathway -- strictly to the right
+    // if we are on the topmost row we have only one pathway -- strictly to the right
     for (let i = 0; i < matrixSize; i += 1) {
         filledMatrix[0][i] = 1;
     }
 
-    // if we are on the right-most column we have only one pathway -- strictly to the top
-    for (let i = 0; i < matrixSize; i += 1) {
+    // if we are on the rightmost column we have only one pathway -- strictly to the top
+    for (let i = 1; i < matrixSize; i += 1) {
         filledMatrix[i][matrixSize - 1] = 1;
     }
 
