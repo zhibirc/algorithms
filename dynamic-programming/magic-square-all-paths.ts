@@ -9,10 +9,31 @@
  * This is a Combinatorics task which can be solved using Dynamic Programming.
  */
 
+// Notice that we haven't to fulfill the whole matrix to solve the task,
+// we only need one row on top and one column on the right which we could reuse.
+// But even this is redundant. If we're looking closely we could discover Pascal's triangle
+// formed by diagonals of our square matrix.
 function getAllPaths (matrixSize: number): number {
-    // notice that we haven't to fulfill the whole matrix to solve the task
-    // we only need one row on top and one column on the right which we could reuse
-    // @todo implement
+    // second row of Pascal's triangle
+    let dpTable = [1, 1];
+    
+    for (let i = 3; i <= matrixSize; i += 1) {
+        const tmp = Array(i).fill(1);
+        for (let j = 1; j < i - 1; j += 1) {
+            tmp[j] = dpTable[j - 1] + dpTable[j];
+        }
+        dpTable = tmp;
+    }
+
+    for (let i = matrixSize - 1; i >= 2; i -= 1) {
+        const tmp: Array<number> = [];
+        for (let j = 0; j < i; j += 1) {
+            tmp[j] = dpTable[j] + dpTable[j + 1];
+        }
+        dpTable = tmp;
+    }
+
+    return dpTable[0] + dpTable[1];
 }
 
 type TResult = {
@@ -61,13 +82,15 @@ function test() {
         [0, 0, 0, 0, 0],
     ];
 
-    const result = getAllPathsVisualize(matrix);
+    const result1 = getAllPaths(matrix.length);
+    const result2 = getAllPathsVisualize(matrix);
 
-    console.assert(result.total === 70, 'Invalid total number of possible pathways');
+    console.assert(result1 === 70, 'Invalid total number of possible pathways in "getAllPaths"');
+    console.assert(result2.total === 70, 'Invalid total number of possible pathways "getAllPathsVisualize"');
     console.assert(
-        JSON.stringify(result.matrix) === '[[1,1,1,1,1],[5,4,3,2,1],[15,10,6,3,1],[35,20,10,4,1],[70,35,15,5,1]]',
+        JSON.stringify(result2.matrix) === '[[1,1,1,1,1],[5,4,3,2,1],[15,10,6,3,1],[35,20,10,4,1],[70,35,15,5,1]]',
         'Invalid resulting matrix'
     );
 
-    console.table(result.matrix);
+    console.table(result2.matrix);
 }
