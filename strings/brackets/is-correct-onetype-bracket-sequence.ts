@@ -16,13 +16,7 @@ const BRACKET = {
     close: ')'
 };
 
-/**
- * @param {string} sequence - string consists of left and right brackets in arbitrary order
- *
- * @return {boolean} result of checking sequence for correctness
- */
-
-function check (sequence) {
+function check (sequence: string | Array<string>): boolean {
     let count = 0;
 
     for (const char of sequence) {
@@ -36,18 +30,18 @@ function check (sequence) {
     return count === 0;
 }
 
-// tests
+function test () {
+    // correct
+    console.assert(check(''));
+    console.assert(check('()'));
+    console.assert(check('(())'));
+    console.assert(check('(()())'));
+    console.assert(check('(())()()(())'));
 
-// correct
-console.assert(check(''));
-console.assert(check('()'));
-console.assert(check('(())'));
-console.assert(check('(()())'));
-console.assert(check('(())()()(())'));
-
-// incorrect
-console.assert(!check(')'));
-console.assert(!check('('));
-console.assert(!check('(())('));
-console.assert(!check(')()()(()'));
-console.assert(!check('()((()(()(()))))))())))))(()'));
+    // incorrect
+    console.assert(!check(')'));
+    console.assert(!check('('));
+    console.assert(!check('(())('));
+    console.assert(!check(')()()(()'));
+    console.assert(!check('()((()(()(()))))))())))))(()'));
+}

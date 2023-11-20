@@ -17,14 +17,8 @@ const BRACKET = {
     '}': '{'
 };
 
-/**
- * @param {string} sequence - string consists of left and right brackets in arbitrary order
- *
- * @return {boolean} result of checking sequence for correctness
- */
-
-function check (sequence) {
-    let stack = [];
+function check (sequence: string | Array<string>): boolean {
+    let stack: Array<string> = [];
 
     for (const char of sequence) {
         if (BRACKET[char]) {
@@ -41,19 +35,19 @@ function check (sequence) {
     return stack.length === 0;
 }
 
-// tests
+function test() {
+    // correct
+    console.assert(check(''));
+    console.assert(check('()'));
+    console.assert(check('[]'));
+    console.assert(check('({})'));
+    console.assert(check('[(){}]'));
+    console.assert(check('{{}}()()[[]]'));
 
-// correct
-console.assert(check(''));
-console.assert(check('()'));
-console.assert(check('[]'));
-console.assert(check('({})'));
-console.assert(check('[(){}]'));
-console.assert(check('{{}}()()[[]]'));
-
-// incorrect
-console.assert(!check(')'));
-console.assert(!check('['));
-console.assert(!check('({})('));
-console.assert(!check('}[][](()'));
-console.assert(!check('{}(([](()[{}])))))[])))))({}'));
+    // incorrect
+    console.assert(!check(')'));
+    console.assert(!check('['));
+    console.assert(!check('({})('));
+    console.assert(!check('}[][](()'));
+    console.assert(!check('{}(([](()[{}])))))[])))))({}'));
+}

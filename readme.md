@@ -22,10 +22,11 @@ You and/or your company could use it as a source for coding skills assessment du
 |Palindromes            |[Check if a given string is a potential palindrome](./strings/palindromes/is-potential-palindrome.py)                                |
 |Permutations           |[Generate all possible balanced bracket sequences of `N` pairs](./strings/permutations/balanced-bracket-sequences.py)                |
 |Permutations           |[Generate all possible permutations of string letters (recursion)](./strings/permutations/generate-all-recursive.ts)                 |
-|Brackets               |[Check correctness of a given bracket sequence (one bracket type)](./strings/brackets/is-correct-onetype-bracket-sequence.js)        |
-|Brackets               |[Check correctness of a given bracket sequence (multiple bracket types)](./strings/brackets/is-correct-multitype-bracket-sequence.js)|
+|Brackets               |[Check correctness of a given bracket sequence (one bracket type)](./strings/brackets/is-correct-onetype-bracket-sequence.ts)        |
+|Brackets               |[Check correctness of a given bracket sequence (multiple bracket types)](./strings/brackets/is-correct-multitype-bracket-sequence.ts)|
 |Brackets               |[Determine the maximum depth of nesting brackets in a given sequence](./strings/brackets/nesting-brackets-depth.go)                  |
 |Brackets               |[Generate all possible balanced bracket sequences of N pairs](./strings/brackets/generate-bracket-sequences-recursion.py)            |
+|Brackets               |[Total amount of correct bracket sequences for N bracket pairs](./strings/brackets/bracket-sequence-total-amount.ts)                 |
 |Search                 |[Boyer–Moore–Horspool (Horspool's) algorithm](./strings/search/boyer-moore-horspool/)                                                |
 |                       |[Find substring pattern in a given string (needle in haystack)](./strings/find-needle-haystack.py)                                   |
 |                       |[Implementation of Knuth–Morris–Pratt algorithm (KMP)](./strings/knuth-morris-pratt.py)                                              |
@@ -42,7 +43,7 @@ You and/or your company could use it as a source for coding skills assessment du
 |                       |[Coin Change (Change-making): find the least number of coins](./dynamic-programming/coin-change-least-number.ts)                     |
 |                       |[Coin Change (Change-making): find the total number of ways (order matters)](./dynamic-programming/coin-change-total-number.ts)      |
 |                       |[Coin Change (Change-making): get coins of the least number of coins](./dynamic-programming/coin-change-least-coins.ts)              |
-|                       |[Find all possible pathways in given square matrix from one cell to another](./dynamic-programming/magic-square-all-paths.ts)              |
+|                       |[Find all possible pathways in given square matrix from one cell to another](./dynamic-programming/magic-square-all-paths.ts)        |
 |**Data Structures**    |[🔗](./data-structures/)                                                                                                             |
 |                       |[Circular Buffer (Ring Buffer)](./data-structures/circular-buffer.js)                                                                |
 
