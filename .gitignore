@@ -1,7 +1,12 @@
-.vscode/*
+# OS
+.DS_Store
+Thumbs.db
 
-# Local History for Visual Studio Code
+# IDE
+.idea/
+.vscode/
 .history/
-
-# Built Visual Studio Code Extensions
 *.vsix
+
+# dependency directories
+node_modules/
