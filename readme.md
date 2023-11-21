@@ -42,12 +42,13 @@ You and/or your company could use it as a source for coding skills assessment du
 |**Trees**              |[🔗](./trees/)                                                                                                                       |
 |Binary                 |[Check if there is a node in binary tree which satisfies to given predicate](./trees/binary/search.py)                               |
 |**Dynamic Programming**|[🔗](./dynamic-programming/)                                                                                                         |
-|                       |[Coin Change (Change-making): find the least number of coins](./dynamic-programming/coin-change-least-number.ts)                     |
-|                       |[Coin Change (Change-making): find the total number of ways (order matters)](./dynamic-programming/coin-change-total-number.ts)      |
-|                       |[Coin Change (Change-making): get coins of the least number of coins](./dynamic-programming/coin-change-least-coins.ts)              |
-|                       |[Find all possible pathways in given square matrix from one cell to another](./dynamic-programming/magic-square-all-paths.ts)        |
+|                       |[Coin Change (Change-making): find the least number of coins](./dynamic-programming/coin-change-least-number/)                       |
+|                       |[Coin Change (Change-making): find the total number of ways (order matters)](./dynamic-programming/coin-change-total-number/)        |
+|                       |[Coin Change (Change-making): get coins of the least number of coins](./dynamic-programming/coin-change-least-coins/)                |
+|                       |[All possible pathways in given square matrix from one cell to another](./dynamic-programming/magic-square-all-paths/)               |
+|                       |[Max possible earn among all pathways from point A to B in given square matrix](./dynamic-programming/magic-square-max-earn/)        |
 |**Data Structures**    |[🔗](./data-structures/)                                                                                                             |
-|                       |[Circular Buffer (Ring Buffer)](./data-structures/circular-buffer.js)                                                                |
+|                       |[Circular Buffer (Ring Buffer)](./data-structures/circular-buffer/)                                                                  |
 
 ## Additional materials
 

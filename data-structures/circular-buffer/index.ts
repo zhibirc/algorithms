@@ -19,17 +19,16 @@
 
 class CircularBuffer {
     #data;
+    #size;
 
-    constructor (length) {
+    constructor (size: number) {
         this.#data = [];
-        Object.defineProperty(this, 'length', {
-            value: length
-        });
+        this.#size = size;
     }
 
     push (value) {
         if (value != undefined) {
-            if (this.#data.length + 1 > this.length) {
+            if (this.#data.length === this.#size) {
                 this.#data.shift();
             }
 
