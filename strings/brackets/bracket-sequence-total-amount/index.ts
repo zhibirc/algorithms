@@ -11,19 +11,21 @@
       Catalan number
    -------------------- */
 
-function findTotalOneType_1 (bracketsLength: number): bigint {
+/**
+ * Find number of possible correct bracket sequences with given constraints.
+ * @param {number} length - length N of string with brackets (consists of N/2 bracket pairs)
+ * @param {number} [types] - number of bracket types (square, angle, etc.) being used, default is 1 (one type)
+ * @return {bigint} number of distinct combinations
+ */
+function findTotal_1 (length: number, types: number = 1): bigint {
     let result = BigInt(1);
  
-    for (let i = 1; i < bracketsLength / 2; i += 1) {
+    for (let i = 1; i <= length / 2; i += 1) {
         result *= (4n * BigInt(i) - 2n);
         result /= (BigInt(i) + 1n);
     }
 
-    return result;
-}
-
-function findTotalMultType_1 (bracketsLength: number): bigint {
-    // @todo: implement
+    return result * BigInt(types ** (length >> 1)); // @todo: proof it
 }
 
 /* --------------------
@@ -43,8 +45,4 @@ function findTotalOneType_2 (bracketsLength: number): number {
     }
 
     return dpTable.pop() as number;
-}
-
-function test() {
-    // @todo: implement
 }
