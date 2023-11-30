@@ -2,7 +2,7 @@
 
 [![Maintenance](https://img.shields.io/maintenance/yes/2023.svg?style=flat)]()
 ![GitHub repo size](https://img.shields.io/github/repo-size/zhibirc/algorithms?style=flat&color=008080)
-![Static Badge](https://img.shields.io/badge/algorithms-32-f0e68c)
+![Static Badge](https://img.shields.io/badge/algorithms-33-f0e68c)
 ![Static Badge](https://img.shields.io/badge/data_structures-1-f0e68c)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg?style=flat)]()
 
@@ -29,6 +29,7 @@ You and/or your company could use it as a source for coding skills assessment du
 |Brackets               |[Determine the maximum depth of nesting brackets in a given sequence](./strings/brackets/nesting-brackets-depth/)                  |
 |Brackets               |[Generate all possible balanced bracket sequences of N pairs](./strings/brackets/generate-bracket-sequences-recursion/)            |
 |Brackets               |[Total amount of correct bracket sequences for N bracket pairs](./strings/brackets/bracket-sequence-total-amount/)                 |
+|Brackets               |[Next Bracket Sequence](./strings/brackets/next-bracket-sequence/)                                                                 |
 |Search                 |[Boyer–Moore–Horspool (Horspool's) algorithm](./strings/search/boyer-moore-horspool/)                                              |
 |                       |[Find substring pattern in a given string (needle in haystack)](./strings/find-needle-haystack.py)                                 |
 |                       |[Implementation of Knuth–Morris–Pratt algorithm (KMP)](./strings/knuth-morris-pratt.py)                                            |

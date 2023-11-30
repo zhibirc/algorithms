@@ -15,7 +15,7 @@ function getPathMaxEarn (matrix: Array<Array<number>>): TResult {
     // prevent mutation of referenced array
     const filledMatrix = Array.from(matrix, row => [...row]);
     const matrixSize = matrix.length;
-    const path = []; // @todo: implement
+    const path = [];
 
     // for the topmost row the max earn for each cell is just the sum of all earnings
     // in all cells to the right, since we could move only in one direction - to the right
@@ -52,18 +52,4 @@ function getPathMaxEarn (matrix: Array<Array<number>>): TResult {
         matrix: filledMatrix,
         path
     };
-}
-
-function test() {
-    const matrix = [
-        [ 5,  -9,  44, 127, -13],
-        [91,  23, 106, -30,  80],
-        [-8,   0, -28,  34, -27],
-        [ 7, 133, -76, 100,  55],
-        [29,   4,  18,  25,  -5],
-    ];
-
-    const result = getPathMaxEarn(matrix);
-
-    console.table(result.matrix);
 }
