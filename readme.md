@@ -2,7 +2,7 @@
 
 [![Maintenance](https://img.shields.io/maintenance/yes/2023.svg?style=flat)]()
 ![GitHub repo size](https://img.shields.io/github/repo-size/zhibirc/algorithms?style=flat&color=008080)
-![Static Badge](https://img.shields.io/badge/algorithms-34-f0e68c)
+![Static Badge](https://img.shields.io/badge/algorithms-36-f0e68c)
 ![Static Badge](https://img.shields.io/badge/data_structures-1-f0e68c)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg?style=flat)]()
 
@@ -18,6 +18,9 @@ You and/or your company could use it as a source for coding skills assessment du
 
 | Type                  | Problem                                                                                                                           |
 |-----------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+|**Number theory**      |[🔗](./number-theory/)                                                                                                             |
+|                       |[Primality test](./number-theory/primality-test/)                                                                                  |
+|                       |[Sieve of Eratosthenes](./number-theory/sieve-eratosthenes/)                                                                       |
 |**Games**              |[Sudoku solver (backtracking)](./games/sudoku-solver.py)                                                                           |
 |**Strings**            |[🔗](./strings/)                                                                                                                   |
 |Palindromes            |[Check if a given string is a palindrome](./strings/palindromes/is-palindrome.go)                                                  |
