@@ -1,11 +1,11 @@
-from math import sqrt, floor
+from math import floor, sqrt
 
 def isPrime(n: int) -> bool:
     if n < 2:
         return False
 
-    for i in range(2, floor(sqrt(n))):
-        if n % i == 0:
+    for d in range(2, floor(sqrt(n))):
+        if n % d == 0:
             return False
     
     return True

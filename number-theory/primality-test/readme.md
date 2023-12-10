@@ -1,12 +1,6 @@
 # Primality test
 
-## Implementation details
-
-### Complexity
-
-#### Time
-
-#### Space
+## Implementation
 
 ## More information
 
