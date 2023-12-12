@@ -1,5 +1,9 @@
 # Primality test
 
+Determine whether a number is prime or composite.
+
+## Theory
+
 ## Implementation
 
 ## More information
