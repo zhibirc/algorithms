@@ -1,4 +1,4 @@
-# Computing the greatest common divisor (GCD)
+# Greatest common divisor (GCD)
 
 ## Implementation details
 

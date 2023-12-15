@@ -21,7 +21,7 @@ You and/or your company could use it as a source for coding skills assessment du
 |**Number theory**      |[🔗](./number-theory/)                                                                                                             |
 |                       |[Primality test](./number-theory/primality-test/)                                                                                  |
 |                       |[Sieve of Eratosthenes](./number-theory/sieve-eratosthenes/)                                                                       |
-|                       |[Computing the greatest common divisor (GCD)](./number-theory/gcd/)                                                                |
+|                       |[Greatest common divisor (GCD)](./number-theory/gcd/)                                                                              |
 |                       |[Digital root](./number-theory/digital-root/)                                                                                      |
 |**Games**              |[Sudoku solver (backtracking)](./games/sudoku-solver.py)                                                                           |
 |**Strings**            |[🔗](./strings/)                                                                                                                   |
