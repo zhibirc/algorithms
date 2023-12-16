@@ -10,7 +10,7 @@ Determine whether a number is prime or composite.
 
 #### Complexity
 
-**Time**: $O(k * \log^2n)$
+**Time**: $O(k * \log^2n)$, where $k$ is the number of times we make a test
 
 ## More information
 
