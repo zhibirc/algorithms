@@ -5,12 +5,13 @@
 ![Static Badge](https://img.shields.io/badge/algorithms-38-f0e68c)
 ![Static Badge](https://img.shields.io/badge/data_structures-1-f0e68c)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg?style=flat)]()
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
 ---
 
 This is yet another place where various algorithms live.
 
-The main focus was made on algorithms themselves, so you can find their implementations in different programming languages (mostly JavaScript, TypeScript, Python and Go). Each algorithm to the much extent possible is provided with the necessary description, including its asymptotic complexity and memory consumption.
+The main focus was made on algorithms themselves, so you can find their implementations in different programming languages (mostly Python, TypeScript and Go). Each algorithm to the much extent possible is provided with the necessary description, including its asymptotic complexity and memory consumption.
 
 You and/or your company could use it as a source for coding skills assessment during technical interview process, as an additional resource for self-preparation or just as a source for your own awesome algorithms collection.
 
@@ -57,8 +58,16 @@ You and/or your company could use it as a source for coding skills assessment du
 |**Data Structures**    |[🔗](./data-structures/)                                                                                                           |
 |                       |[Circular Buffer (Ring Buffer)](./data-structures/circular-buffer/)                                                                |
 
-## Additional materials
+## Links
 
 - [The Algorithms](https://the-algorithms.com)
 - [JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms)
 - [Time Complexity of various Python operations](https://wiki.python.org/moin/TimeComplexity)
+
+## Contributing
+
+We encourage you to contribute to our growing knowledge base of algorithmic world! Please check out the [Contribution Guide](./CONTRIBUTING.md) for guidelines about how to proceed. In any activity in the project, please, follow our [Code of Conduct](./CODE_OF_CONDUCT.md).
+
+## License
+
+This project is available under the [Unlicense](./UNLICENSE.txt) license or, in simple words, doesn't contain *any* restrictions on usage.
