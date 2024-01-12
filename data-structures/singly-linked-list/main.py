@@ -41,4 +41,5 @@ class SinglyLinkedList:
                     return currentNode
 
             previousNode = currentNode
+            # TODO: deal with case of first == False, i.e. remove all occurences
             currentNode = currentNode.next

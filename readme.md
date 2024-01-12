@@ -3,7 +3,7 @@
 [![Maintenance](https://img.shields.io/maintenance/yes/2023.svg?style=flat)]()
 ![GitHub repo size](https://img.shields.io/github/repo-size/zhibirc/algorithms?style=flat&color=008080)
 ![Static Badge](https://img.shields.io/badge/algorithms-38-f0e68c)
-![Static Badge](https://img.shields.io/badge/data_structures-1-f0e68c)
+![Static Badge](https://img.shields.io/badge/data_structures-3-f0e68c)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg?style=flat)]()
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
@@ -26,8 +26,8 @@ You and/or your company could use it as a source for coding skills assessment du
 |                       |[Digital root](./number-theory/digital-root/)                                                                                      |
 |**Games**              |[Sudoku solver (backtracking)](./games/sudoku-solver.py)                                                                           |
 |**Strings**            |[🔗](./strings/)                                                                                                                   |
-|Palindromes            |[Check if a given string is a palindrome](./strings/palindromes/is-palindrome.go)                                                  |
-|Palindromes            |[Check if a given string is a potential palindrome](./strings/palindromes/is-potential-palindrome.py)                              |
+|Palindromes            |[Check if a given string is a palindrome](./strings/palindromes/is-palindrome/)                                                    |
+|Palindromes            |[Check if a given string is a potential palindrome](./strings/palindromes/is-potential-palindrome/)                                |
 |Permutations           |[Generate all possible balanced bracket sequences of `N` pairs](./strings/permutations/balanced-bracket-sequences.py)              |
 |Permutations           |[Generate all possible permutations of string letters (recursion)](./strings/permutations/generate-all-recursive.ts)               |
 |Brackets               |[Check correctness of a given bracket sequence (one bracket type)](./strings/brackets/is-correct-onetype-bracket-sequence/)        |
@@ -57,6 +57,8 @@ You and/or your company could use it as a source for coding skills assessment du
 |                       |[Max possible earn among all pathways from point A to B in given square matrix](./dynamic-programming/magic-square-max-earn/)      |
 |**Data Structures**    |[🔗](./data-structures/)                                                                                                           |
 |                       |[Circular Buffer (Ring Buffer)](./data-structures/circular-buffer/)                                                                |
+|                       |[Singly Linked List](./data-structures/singly-linked-list/)                                                                        |
+|                       |[Doubly Linked List](./data-structures/doubly-linked-list/)                                                                        |
 
 ## Links
 

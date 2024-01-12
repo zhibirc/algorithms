@@ -13,9 +13,11 @@ From the other side, in those cases where we know an input string will be small 
 The proposed algorithm uses two pointers approach for checking complementary characters for equality.
 If this invariant is violated use early return with negative result.
 
-**Time complexity**: $O(N/2)$ -> $O(N)$
+**Time complexity**:
+- $O(N/2)$ -> $O(N)$
 
-**Space complexity**: $O(1)$
+**Space complexity**:
+- $O(1)$
 
 We do our check in-place, without creating auxiliary data structures, so no additional space is required.
 

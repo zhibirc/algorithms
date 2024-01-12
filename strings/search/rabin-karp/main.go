@@ -1,4 +1,4 @@
-package main
+package rabinkarp
 
 import (
 	"math"
