@@ -1,6 +1,6 @@
 # Algorithms
 
-[![Maintenance](https://img.shields.io/maintenance/yes/2023.svg?style=flat)]()
+[![Maintenance](https://img.shields.io/maintenance/yes/2024.svg?style=flat)]()
 ![GitHub repo size](https://img.shields.io/github/repo-size/zhibirc/algorithms?style=flat&color=008080)
 ![Static Badge](https://img.shields.io/badge/algorithms-38-f0e68c)
 ![Static Badge](https://img.shields.io/badge/data_structures-3-f0e68c)
