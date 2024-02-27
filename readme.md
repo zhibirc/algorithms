@@ -2,7 +2,7 @@
 
 [![Maintenance](https://img.shields.io/maintenance/yes/2024.svg?style=flat)]()
 ![GitHub repo size](https://img.shields.io/github/repo-size/zhibirc/algorithms?style=flat&color=008080)
-![Static Badge](https://img.shields.io/badge/algorithms-39-f0e68c)
+![Static Badge](https://img.shields.io/badge/algorithms-40-f0e68c)
 ![Static Badge](https://img.shields.io/badge/data_structures-3-f0e68c)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg?style=flat)]()
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
@@ -31,6 +31,7 @@ You and/or your company could use it as a source for coding skills assessment du
 |Palindromes            |[Check if a given string is a potential palindrome](./strings/palindromes/is-potential-palindrome/)                                |
 |Permutations           |[Generate all possible balanced bracket sequences of `N` pairs](./strings/permutations/balanced-bracket-sequences.py)              |
 |Permutations           |[Generate all possible permutations of string letters (recursion)](./strings/permutations/generate-all-recursive.ts)               |
+|Permutations           |[Reverse vowels](./strings/permutations/reverse-vowels/)                                                                           |
 |Brackets               |[Check correctness of a given bracket sequence (one bracket type)](./strings/brackets/is-correct-onetype-bracket-sequence/)        |
 |Brackets               |[Check correctness of a given bracket sequence (multiple bracket types)](./strings/brackets/is-correct-multitype-bracket-sequence/)|
 |Brackets               |[Determine the maximum depth of nesting brackets in a given sequence](./strings/brackets/nesting-brackets-depth/)                  |
