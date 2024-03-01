@@ -42,6 +42,7 @@ You and/or your company could use it as a source for coding skills assessment du
 |Search                 |[Knuth–Morris–Pratt (KMP) algorithm](./strings/search/knuth-morris-pratt/)                                                         |
 |Search                 |[Rabin–Karp (Karp-Rabin) algorithm](./strings/search/rabin-karp/)                                                                  |
 |                       |[Find substring pattern in a given string (needle in haystack)](./strings/find-needle-haystack.py)                                 |
+|                       |[Sum strings](./strings/sum-strings/)                                                                                              |
 |**Sequences**          |[🔗](./sequences/)                                                                                                                 |
 |                       |[Implementation of Boyer–Moore majority vote algorithm](./sequences/boyer-moore-majority-vote.go)                                  |
 |**Lists**              |[🔗](./lists/)                                                                                                                     |
