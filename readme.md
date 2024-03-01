@@ -2,7 +2,7 @@
 
 [![Maintenance](https://img.shields.io/maintenance/yes/2024.svg?style=flat)]()
 ![GitHub repo size](https://img.shields.io/github/repo-size/zhibirc/algorithms?style=flat&color=008080)
-![Static Badge](https://img.shields.io/badge/algorithms-40-f0e68c)
+![Static Badge](https://img.shields.io/badge/algorithms-41-f0e68c)
 ![Static Badge](https://img.shields.io/badge/data_structures-3-f0e68c)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg?style=flat)]()
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
