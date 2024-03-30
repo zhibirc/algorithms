@@ -2,7 +2,7 @@
 
 [![Maintenance](https://img.shields.io/maintenance/yes/2024.svg?style=flat)]()
 ![GitHub repo size](https://img.shields.io/github/repo-size/zhibirc/algorithms?style=flat&color=008080)
-![Static Badge](https://img.shields.io/badge/algorithms-41-f0e68c)
+![Static Badge](https://img.shields.io/badge/algorithms-42-f0e68c)
 ![Static Badge](https://img.shields.io/badge/data_structures-3-f0e68c)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg?style=flat)]()
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
@@ -46,6 +46,7 @@ You and/or your company could use it as a source for coding skills assessment du
 |**Sequences**          |[🔗](./sequences/)                                                                                                                 |
 |                       |[Implementation of Boyer–Moore majority vote algorithm](./sequences/boyer-moore-majority-vote.go)                                  |
 |**Lists**              |[🔗](./lists/)                                                                                                                     |
+|Arrays/Subsets         |[Generate Power set of given array](./lists/arrays/subsets/power-set/)                                                             |
 |Arrays                 |[Check if an array has a pair of numbers whose sum is match the given target](./lists/arrays/has-pair-sum-equal-n.js)              |
 |Linked Lists           |[Find a middle/median element](./lists/linked-lists/find-median-element.js)                                                        |
 |**Parsers**            |[🔗](./parsers/)                                                                                                                   |
