@@ -7,6 +7,3 @@ Thumbs.db
 .vscode/
 .history/
 *.vsix
-
-# dependency directories
-node_modules/
