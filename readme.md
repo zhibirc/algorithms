@@ -1,6 +1,6 @@
 # Algorithms
 
-[![Maintenance](https://img.shields.io/maintenance/yes/2024.svg?style=flat)]()
+[![Maintenance](https://img.shields.io/maintenance/yes/2025.svg?style=flat)]()
 ![GitHub repo size](https://img.shields.io/github/repo-size/zhibirc/algorithms?style=flat&color=008080)
 ![Static Badge](https://img.shields.io/badge/algorithms-42-f0e68c)
 ![Static Badge](https://img.shields.io/badge/data_structures-3-f0e68c)
@@ -63,6 +63,7 @@ You and/or your company could use it as a source for coding skills assessment du
 |                       |[Circular Buffer (Ring Buffer)](./data-structures/circular-buffer/)                                                                |
 |                       |[Singly Linked List](./data-structures/singly-linked-list/)                                                                        |
 |                       |[Doubly Linked List](./data-structures/doubly-linked-list/)                                                                        |
+|                       |[Binary Heap](./data-structures/binary-heap/)                                                                                      |
 
 ## Links
 

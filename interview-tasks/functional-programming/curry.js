@@ -42,16 +42,15 @@ console.assert(getDateCurried(2023)(3, 5)(15)(30) === reference);
  * Solution on "Implement currying/curried function".
  */
 
-function curryV1 (fn, len = fn.length) {
-    return (...args) => {
-        if ( args.length >= len ) {
-            return fn(...args);
+function curryV1 (fn) {
+    return function curried(...args) {
+        if ( args.length >= fn.length ) {
+            //return fn(...args);
+            return fn.apply(this, args);
         }
 
-        return curryV1(
-            (...nextArgs) => fn(...args, ...nextArgs),
-            len - args.length
-        );
+        //return (...rest) => curried(...args, ...rest);
+        return curried.bind(this, ...args);
     };
 }
 
